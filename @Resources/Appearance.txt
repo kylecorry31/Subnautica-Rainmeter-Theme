@@ -22,6 +22,7 @@ hideOuterEdge=0
 hidePieBg=0
 hideDivider=1
 hideSubText=1
+hideInnerCircle=1
 
 ; font attributes
 mainFont=Sansation

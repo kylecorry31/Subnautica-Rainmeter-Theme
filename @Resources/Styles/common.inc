@@ -25,7 +25,13 @@ Hidden=#hideOuterEdge#
 [pieBgCommon]
 Meter=Shape
 Shape=Ellipse (5*#radius#+#edging#),(#radius#+#edging#),#radius# | Fill RadialGradient MyGradient1
-MyGradient1=0,0 | 40,80,90,200 ; 0.0 | 40,80,90,200 ; 0.75 | 105,190,190,200 ; 1.0
+MyGradient1=0,0 | 40,80,90,200 ; 0.0 | 40,80,90,200 ; 0.75 | 105,190,190,200 ; 0.95 | 105,190,190,200 ; 1.0
+
+[innerCircle]
+Meter=Shape
+Hidden=#hideInnerCircle#
+Shape=Ellipse (5*#radius#+#edging#),(#radius#+#edging#),(#innerRadius#*1.07) | Fill RadialGradient MyGradient2 | StrokeColor 130,180,170,255
+MyGradient2=0,0 | 65,120,130,255 ; 0.0 | 55,80,100,255 ; 0.94 | 0,0,0,255 ; 0.945 | 130,180,170,255 ; 0.95 | 130,180,170,255 ; 1.0
 
 [pieCommon]
 X=r
@@ -47,7 +53,7 @@ Hidden=#hideDivider#
 AntiAlias=1
 StringCase=Lower
 FontFace=#mainFont#
-FontSize=(#radius#*0.2)
+FontSize=(#radius#*0.24)
 FontColor=#textMainColor#
 StringStyle=#fontStyle#
 SolidColor=0,0,0,1
