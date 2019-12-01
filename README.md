@@ -7,4 +7,5 @@ See [the releases page](https://github.com/kylecorry31/Subnautica-Rainmeter-Them
 
 ## Credits
 - [Remix of Circuitous Two](https://www.deviantart.com/flyinghyrax/art/CircuitousTwo-376652231)
+- [Weather - Phenix](https://www.deviantart.com/dd-921/art/Phenix-1-2f-593485992)
 - [Icons](https://www.flaticon.com/authors/freepik)
